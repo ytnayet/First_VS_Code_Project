@@ -1,5 +1,6 @@
 body {
   background-color: rgb(187, 154, 115);
+  overflow-x: hidden;
 }
 
 ul {
@@ -8,6 +9,8 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: sticky;
+  top: 0;
 }
 
 li {
@@ -27,9 +30,9 @@ li a:hover {
 }
 
 .main-image {
-  margin-left: 380px;
-  width: 300px;
   text-align: center;
+  margin-left: 340px;
+  width: 200px;
 }
 
 h2 {
@@ -49,6 +52,7 @@ p {
   height: 350px;
   width: 200px;
   margin-left: 200px;
+  max-width: 100%;
 }
 
 .aboutP {
@@ -64,8 +68,13 @@ h1 {
 }
 
 button {
-  color: rgb(21, 21, 22);
-  font-size: 30px;
-  margin-left: 980px;
+  font-size: 20px;
+  margin-left: 1000px;
   margin-top: 20px;
+  background-color: #333;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 1%;
+  padding: 10px;
+  position: sticky;
 }
