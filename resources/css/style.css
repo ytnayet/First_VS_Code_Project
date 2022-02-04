@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(187, 154, 115);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.main-image {
+  margin-left: 380px;
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(36, 38, 39);
+  text-shadow: 2px 2px 4px #000000;
+}
+p {
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+/* about html css */
+
+.about {
+  height: 350px;
+  width: 200px;
+  margin-left: 200px;
+}
+
+.aboutP {
+  text-shadow: 2px 2px 4px #e0dada;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px #e0dada;
+  text-align: center;
+}
