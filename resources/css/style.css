@@ -62,3 +62,10 @@ h1 {
   text-shadow: 2px 2px 4px #e0dada;
   text-align: center;
 }
+
+button {
+  color: rgb(21, 21, 22);
+  font-size: 30px;
+  margin-left: 980px;
+  margin-top: 20px;
+}
