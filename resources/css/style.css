@@ -8,9 +8,11 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(187, 154, 115);
   position: sticky;
   top: 0;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 li {
@@ -19,14 +21,14 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: rgb(58, 54, 54);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: rgb(231, 221, 221);
 }
 
 .main-image {
@@ -67,7 +69,7 @@ h1 {
   text-align: center;
 }
 
-button {
+/* button {
   font-size: 20px;
   margin-left: 1000px;
   margin-top: 20px;
@@ -77,4 +79,4 @@ button {
   margin-top: 1%;
   padding: 10px;
   position: sticky;
-}
+} */
